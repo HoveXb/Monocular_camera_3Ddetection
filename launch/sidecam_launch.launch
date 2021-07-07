@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="camera_detect" type="camera_prep.py" name="n_camera_prep" output="screen" />
+    <param name="n_camera_obj_config_3" type="string" value="/home/hovexb/CODE/YOLOv5_ROS/src/sidecamera_detect/scripts/n_camera_obj_config_3.yaml" />
+    <node pkg="camera_detect" type = "sidecamera_detect.py" name = "n_camera_obj_3" output="screen" />
+</launch>
