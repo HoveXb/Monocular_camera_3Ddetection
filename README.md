@@ -20,7 +20,7 @@ pip install requirement.txt
 *** 
 
 ## 2.如何运行
-1. 下载本仓库：`git clone git@github.com:HoveXb/Side_Camera_detection.git`
+1. 下载本仓库：`git clone git@github.com:HoveXb/Monocular_camera_3Ddetection.git`
 2. 将本仓库移至你的ros工作空间中的src目录
 3. 修改本仓库launch文件下`sidecam_launch.launch`中`n_camera_obj_config_id`的`value`,改值为`n_camera_obj_config_id.yaml`文件的绝对路径
 4. 依据需求修改本仓库中的`n_camera_obj_config.yaml`中的各项属性
