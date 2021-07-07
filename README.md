@@ -54,3 +54,4 @@ pip install requirement.txt
 
 ## 4.相机内参和PNP转换矩阵的获得
 参考另一个仓库
+[CAMERA_CALIB_PNP](https://github.com/HoveXb/CAMERA_CALIB_PNP)
