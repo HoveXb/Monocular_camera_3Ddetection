@@ -46,7 +46,7 @@ pip install requirement.txt
 | camera_id     | 摄像头id，按前后左右驾驶室分为0，1，2，3，4                              |
 | half          | 推理时是否使用半精度（1660s不支持）                                      |
 | class_name    | 检测类别名称                                                             |
-| camera_matrix | 相机内参矩阵绝对路径                                                     |
+| camera_matrix | 相 机内参矩阵绝对路径                                                     |
 | dist_coefs    | 相机畸变系数绝对路径                                                     |
 | rotM          | PNP中外参旋转矩阵绝对路径                                                |
 | tvec          | PNP中外参平移矩阵绝对路径                                                |
@@ -55,3 +55,10 @@ pip install requirement.txt
 ## 4.相机内参和PNP转换矩阵的获得
 参考另一个仓库
 [CAMERA_CALIB_PNP](https://github.com/HoveXb/CAMERA_CALIB_PNP)
+
+**备注：标定PNP转换参数时，目标2D位置[u,v]在未去畸变的图像上获得，且以图像坐标系作为参考坐标系，即图像左上角为原点，横为u,纵为v**
+
+*** 
+## 5.补充说明
+
+本算法得到的障碍物3D位置其采取的坐标系与PNP标定时确定的三维坐标系一致。
