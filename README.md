@@ -56,7 +56,7 @@ pip install requirement.txt
 参考另一个仓库
 [CAMERA_CALIB_PNP](https://github.com/HoveXb/CAMERA_CALIB_PNP)
 
-**备注：标定PNP转换参数时，目标2D位置[u,v]在未去畸变的图像上获得，且以图像坐标系作为参考坐标系，即图像左上角为原点，横为u,纵为v**
+**备注：标定PNP转换参数时，目标2D坐标[u,v]在未去畸变的图像上获得，且以图像坐标系作为参考坐标系，即图像左上角为原点，横为u,纵为v**
 
 *** 
 ## 5.补充说明
